@@ -31,7 +31,7 @@
     _tweetLabel = [[STTweetLabel alloc] initWithFrame:CGRectMake(20.0, 60.0, 280.0, 230.0)];
     [_tweetLabel setFont:[UIFont fontWithName:@"HelveticaNeue" size:17.0]];
     [_tweetLabel setTextColor:[UIColor blackColor]];
-    [_tweetLabel setText:@"Hi. This is a new tool for @you! Developed by->@SebThiebaud for #iPhone #Obj-C... ;-)\nMy GitHub page: https://www.github.com/SebastienThiebaud!"];
+    [_tweetLabel setText:@"Hi. This is a new tool for @you! Developed by->@SebThiebaud for #iPhone #Obj-C... ;-)\nMy GitHub page: https://www.github.com/SebastienThiebaud! @干嘛哈哈哈哈哈哈哈哈"];
 
     STLinkCallbackBlock callbackBlock = ^(STLinkActionType actionType, NSString *link) {
         
