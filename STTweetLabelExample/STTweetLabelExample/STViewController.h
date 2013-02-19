@@ -14,4 +14,7 @@
 @property (strong, nonatomic) STTweetLabel *tweetLabel;
 @property (strong, nonatomic) IBOutlet UILabel *displayLabel;
 
+
+@property (weak, nonatomic) IBOutlet UILabel *normalLabel;
+
 @end
